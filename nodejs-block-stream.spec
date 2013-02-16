@@ -1,13 +1,13 @@
 %define		pkg	block-stream
 Summary:	A stream of blocks
 Name:		nodejs-%{pkg}
-Version:	0.0.5
+Version:	0.0.6
 Release:	1
 License:	MIT
 Group:		Development/Libraries
 URL:		https://github.com/isaacs/block-stream
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
-# Source0-md5:	f70aecb5466ca512c67c5a3a8e74096e
+# Source0-md5:	5ed8a98617a69d4d69156d5064136bf1
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
 Requires:	nodejs-inherits >= 1.0.0
