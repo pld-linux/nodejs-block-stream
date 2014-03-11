@@ -5,9 +5,9 @@ Version:	0.0.7
 Release:	1
 License:	MIT
 Group:		Development/Libraries
-URL:		https://github.com/isaacs/block-stream
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
 # Source0-md5:	c66aaa2227abec6daa6ff8a155b59294
+URL:		https://github.com/isaacs/block-stream
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs >= 0.5.8
 Requires:	nodejs-inherits < 3.0.0
